@@ -31,7 +31,7 @@ module.exports = {
       },
       {
         test: /\.(html)$/,
-        loader: 'html-layout-loader',
+        loader: 'html-hole-loader',
         include: [resolve('src/entries')],
         options: {
           layout: config.layout.html
